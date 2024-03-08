@@ -1,0 +1,81 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  gap: 150px;
+}
+.logo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.nav li {
+  list-style: none;
+}
+.nav li a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #022a1e;
+  font-size: 16px;
+}
+.login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.login a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #051e17;
+  font-size: 16px;
+}
+.btn {
+  border: 1px solid #ccc;
+  outline: none;
+  background: inherit;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 10px;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+  background: #022a1e;
+  border-radius: 10px;
+  gap: 20px;
+}
+.left-generation h1 {
+  width: 348px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+}
+.left-generation p{
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  width: 455px;
+  margin: 15px 0;
+
+}
